@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `다시 시작하는 블러그`,
+    title: `내 블러그`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
