@@ -29,17 +29,16 @@
   "scripts": {
     "deploy": "gatsby build --prefix-paths && gh-pages -d public ",
     "develop": "gatsby develop -H 172.30.1.3 --port 8000 ",
+    "build": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
+  "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  },
+  "main": "index.js"
 }
