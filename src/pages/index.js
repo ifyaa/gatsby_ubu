@@ -9,8 +9,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>여기는 어딘가-이상하네요...왜 이게 나타나는 건가??? </h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>travis에서는 에러가 발생하는데 이 게 왜 보여지는 건지...시간이 많이 지나면 보인다는게 .</p>
+    <p>yarn run deploy만 실행했고, 다른건 건드리지 않았는데...</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
