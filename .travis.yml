@@ -7,7 +7,7 @@ before_script :
  - export PATH=$HOME/.yarn/bin:$PATH
  - yarn install
 script:
-  - yarn run deploy
+  - yarn deploy
 deploy:
   provider: gh-pages
   local_dir: build
