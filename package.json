@@ -29,7 +29,7 @@
   "license": "0BSD",
   "scripts": {
     "deploy": "gatsby build --prefix-paths && gh-pages -d public ",
-    "build": "gatsby develop",
+    "build": "gatsby develop H 172.30.1.3 --port 8000",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
