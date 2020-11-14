@@ -5,7 +5,7 @@ cache: npm
 install:
   - yarn
 script:
-  - npm run deploy
+  - yarn run deploy
 deploy:
   provider: gh-pages
   local_dir: build
