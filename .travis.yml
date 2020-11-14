@@ -3,9 +3,13 @@ before_script:
   - npm install -g gatsby
 node_js:
   - "10"
+before_script :
+ - curl -o- -L https://yarnpkg.com/install.sh | bash -s
+ - export PATH=$HOME/.yarn/bin:$PATH
+ - yarn install
 deploy:
   provider: script
-  script: cd docs/ && npm run deploy
+  script: cd docs/ && yarn run deploy
   skip_cleanup: true
   on:
     branch: master
