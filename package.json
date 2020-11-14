@@ -28,14 +28,10 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -r https://github.com/ifyaa/gatsby_ubu.git",
-    // "deploy": "gatsby build --prefix-paths && gh-pages -d public ",
-    "build": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "build": "gatsby build",
+    "test": "echo \"no test specified\" && exit 0",
+    "preDeploy": "gatsby build --prefix-paths",
+    "deploy": "npm run preDeploy && gh-pages -d public"
   },
   "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
   "bugs": {
